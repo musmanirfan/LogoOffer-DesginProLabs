@@ -8,7 +8,7 @@
                         <p>Suitable for potential super-startups and brand revamps for companies.</p>
                     </div>
                     <div class="pack-price">
-                        <h4 class="pack-amt"><sup>$</sup>35.00<span class="old_price">$90 <sub>Only</sub></span></h4>
+                        <h4 class="pack-amt"><sup>$</sup>39.00<span class="old_price">$90 <sub>Only</sub></span></h4>
                     </div>
                     <div class="pack-list pack-ul">
                         <ul>
