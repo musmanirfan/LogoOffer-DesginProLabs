@@ -149,15 +149,11 @@
                 <li class="text-[14px] text-[#848484] text-left leading-[0px]">✔ 100% Ownership Rights</li>
             </ul>
             <div class="mt-3">
-                <a href="https://wa.me/+14378262236" target = "_blank">
-                    <img class="w-7"
-                        src="https://e7.pngegg.com/pngimages/972/560/png-clipart-whatsapp-computer-icons-whatsapp-text-orange.png"
-                        alt="">
-                </a>
+                <img class="w-7"
+                    src="https://e7.pngegg.com/pngimages/972/560/png-clipart-whatsapp-computer-icons-whatsapp-text-orange.png"
+                    alt="">
                 <p class="text-[13px] text-[#848484]">Discuss with our Design Expert Today!</p>
-                <a href="tel:+14378262236" target="_blank">
-                    <p class="font-bold text-[22px] text-[#FE6F19]">+1 (437) 826-2236</p>
-                </a>
+                <p class="font-bold text-[22px] text-[#FE6F19]">+1 (437) 294-9609</p>
             </div>
         </div>
         <form action="#" method="post" class="validate-popupform !mt-10 !mr-2">
