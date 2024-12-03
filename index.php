@@ -647,7 +647,7 @@ include 'include/header.php';?>
   </div>
 </section>
 
-<section id="about" class="sm:w-[85%] w-[90%] mx-auto my-20 2xl:w-[1500px] space-y-10">
+<section class="sm:w-[85%] w-[90%] mx-auto my-20 2xl:w-[1500px] space-y-10">
   <div class="space-y-5">
     <h2 class="text-3xl mb-3 font-semibold mx-auto w-full text-center">
     Helping Businesses Stand Out with Affordable, <br> <span class="text-[#FE5F00]">Custom Logo Designs.</span>
@@ -682,7 +682,7 @@ include 'include/header.php';?>
       </div>
     </li>
     <li>
-      <div class="h-icon">
+      <div id="about" class="h-icon">
         <img class="mx-auto" src="assets/images/help-icon-5.png" />
         <p class="text-center">Industry Proven <br />Professionals</p>
       </div>
@@ -755,7 +755,7 @@ include 'include/header.php';?>
     <h3 class="text-4xl font-bold">Not Sure Where to Start? </h3>
     <p class="text-xl">Contact our expert design team today and let’s bring your ideas to life.</p>
     <div class="flex items-center flex-wrap gap-3 justify-center mt-4">
-      <div>
+      <div id="testimonial">
         <a href="tel:+14372949609" class="border border-white text-white bg-transparent rounded py-[14px] px-[11px] text-[18px] font-medium text-lg">Call Now</a>
       </div>
       <button class="border border-white text-white bg-transparent rounded py-[14px] px-[11px] text-[18px] font-medium text-lg chat banner-btn yb-btn various">Talk to an Expert</button>
@@ -764,7 +764,7 @@ include 'include/header.php';?>
   </div>
 </section>
 
-<section id="testimonial" class="our-testimonial">
+<section class="our-testimonial">
     <div class="container test-upp !w-[1350px] !sm:w-[1350px]">
         <div class="row sm:mx-12">
             <div class="col-md-12 test-right">
@@ -775,16 +775,16 @@ include 'include/header.php';?>
                             <img src="assets/images/7.webp" alt="test-1">
                         </div>
                         <div class="max-w-lg p-6">
-                            <blockquote class="text-[#FE6F19] text-[24px] font-[600]">"I’m so happy with the logo they created for my business!"
+                            <blockquote class="text-[#FE6F19] text-[24px] font-[600]">"Brought My Vision to Life!"
                             </blockquote>
                             <p class="mt-4 text-muted-foreground">
-                            I wasn’t sure if they’d really get what I was looking for, but they nailed it! The design is exactly what I wanted and fits my brand perfectly. The team was easy to work with and super creative. Thank you for doing such an amazing job!
+                            The team understood my ideas perfectly and created a logo that speaks volumes about my brand. Their attention to detail and professionalism exceeded my expectations!"
                             </p>
                             <div class="flex items-center mt-6">
                                 <img class="w-12 h-12 rounded-full" src="assets/images/barbara.webp" alt="Steven D. Henry" />
                                 <div class="ml-4">
-                                    <p class="font-medium text-primary-foreground">Emily R. Johnson</p>
-                                    <p class="text-sm text-muted-foreground">Creative Director, BrightVista</p>
+                                    <p class="font-medium text-primary-foreground">John R. Taylor, CEO</p>
+                                    <p class="text-sm text-muted-foreground">BrightPath Solutions</p>
                                 </div>
                             </div>
                         </div>
@@ -795,16 +795,16 @@ include 'include/header.php';?>
                             <img src="assets/images/2.webp" alt="test-2">
                         </div>
                         <div class="max-w-lg p-6">
-                            <blockquote class="text-[#FE6F19] text-[24px] font-[600]">"I couldn’t have asked for a better experience!"
+                            <blockquote class="text-[#FE6F19] text-[24px] font-[600]">"Creative and Reliable!"
                             </blockquote>
                             <p class="mt-4 text-muted-foreground">
-                            I wasn’t entirely sure what I wanted at first, but their team was so patient and helpful throughout the process. Asked the right questions, shared creative ideas, and delivered a logo that’s absolutely perfect for my brand.
+                            I couldn’t have asked for a more dedicated team. They transformed my brand’s identity with a unique and timeless logo. Their creative approach and quick delivery were outstanding!
                             </p>
                             <div class="flex items-center mt-6">
                                 <img class="w-12 h-12 rounded-full" src="assets/images/ashlay.webp" alt="Jane S. Doe" />
                                 <div class="ml-4">
-                                    <p class="font-medium text-primary-foreground">Sarah L. Adams</p>
-                                    <p class="text-sm text-muted-foreground">Green Valley Studio</p>
+                                    <p class="font-medium text-primary-foreground">Emily K. Parker, Founder</p>
+                                    <p class="text-sm text-muted-foreground">Blissful Blooms</p>
                                 </div>
                             </div>
                         </div>
@@ -815,16 +815,16 @@ include 'include/header.php';?>
                             <img src="assets/images/6.webp" alt="test-3">
                         </div>
                         <div class="max-w-lg p-6">
-                            <blockquote class="text-[#FE6F19] text-[24px] font-[600]">"The team went above and beyond my expectations!"
+                            <blockquote class="text-[#FE6F19] text-[24px] font-[600]">"Exceeded Expectations!"
                             </blockquote>
                             <p class="mt-4 text-muted-foreground">
-                            From the very first consultation, they understood exactly what I needed. They took my rough ideas and transformed them into a professional and eye-catching logo. The whole experience was seamless, and their quick turnaround time was just the cherry on top. I’m so glad I chose them for this project!
+                            From start to finish, the process was seamless. They captured the essence of my business and delivered a logo that’s both modern and memorable. Highly recommended!
                             </p>
                             <div class="flex items-center mt-6">
                                 <img class="w-12 h-12 rounded-full" src="assets/images/steven.webp" alt="Mark T. Lee" />
                                 <div class="ml-4">
-                                    <p class="font-medium text-primary-foreground">David L. Harris, CEO</p>
-                                    <p class="text-sm text-muted-foreground">Swift Tech Solutions</p>
+                                    <p class="font-medium text-primary-foreground">Alex M. Harris, Owner</p>
+                                    <p class="text-sm text-muted-foreground">Urban Edge Marketing</p>
                                 </div>
                             </div>
                         </div>
