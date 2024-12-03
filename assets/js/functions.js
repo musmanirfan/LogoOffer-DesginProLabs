@@ -136,36 +136,6 @@ if (val == "4") {
 if (val == "5") {
   $("#packages").val("LOGO & WEB PACKAGE - £249.99");
 }
-if (val == "6") {
-  $("#packages").val("START UP WEBSITE PACKAGE - £299");
-}
-if (val == "7") {
-  $("#packages").val("PROFESSIONAL WEBSITE PACKAGE - £544");
-}
-
-if (val == "8") {
-  $("#packages").val("IDENTITY WEB PACKAGE - £924");
-}
-
-if (val == "9") {
-  $("#packages").val("ELITE WEB PACKAGE - £1,324");
-}
-
-if (val == "10") {
-  $("#packages").val("BUSINESS WEB PACKAGE - £1,824");
-}
-
-if (val == "11") {
-  $("#packages").val("BEGINNERS E-COMMERCE PACKAGE - £895");
-}
-
-if (val == "12") {
-  $("#packages").val("CORPORATE E-COMMERCE PACKAGE - £1,695");
-}
-
-if (val == "13") {
-  $("#packages").val("ELITE E-COMMERCE PACKAGE - £2,595");
-}
 
 $("#packages1").val($("#packages").val());
 
