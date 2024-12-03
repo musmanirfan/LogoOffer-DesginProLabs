@@ -68,12 +68,12 @@ include 'include/header.php';?>
         <a href="javascript:;" name="for $244" data-fancybox="" title="Lets Get Started" class="px-4 flex item-center rounded-lg text-lg h-16 !hover:text-black bg-[#FE6F19] !border-[#FE6F19] text-white border focus:outline-none transition-all" data-src="#popupform2"><button style="outline:none;" class="hover:text-black transition-all hover:!text-white hover:!opacity-90">Claim Your Logo Now</button></a>
       </div>
     </div>
-    <form
+    <form onSubmit="handleBannerForm(event)"
       class="bg-white shadow-2xl !border-2 !border-[#E4FF3E] !outline-[#E4FF3E] py-4 px-8 md:w-[93%] col-span-2 w-full h-fit mx-auto rounded-xl relative">
       <h1 class="text-center text-[#FE5F00] text-2xl font-bold mb-3">Limited Time Offer</h1>
       <div class="space-y-4">
         <div>
-          <input placeholder="Name" type="text" id="lname"
+          <input placeholder="Name" type="text" id="name"
             class="w-full text-black p-3 text-base focus:outline-none border rounded !border-[#C6C6C6] bg-[#F3F3F3]" />
         </div>
         <div>
@@ -89,9 +89,9 @@ include 'include/header.php';?>
             class="w-full text-black p-3 text-base focus:outline-none border rounded !border-[#C6C6C6] bg-[#F3F3F3]"></textarea>
         </div>
       </div>
-      <button class="w-full py-3 text-xl font-medium bg-[#FE5F00] mt-3 rounded-lg text-white">Get Started Now</button>
+      <button type="submit" class="w-full py-3 text-xl font-medium bg-[#FE5F00] mt-3 rounded-lg text-white">Get Started Now</button>
       <img src="asets/images/blackfriday-tag.jpg" alt="" class="left-0 -top-11 absolute !z-30">
-    </form>
+</form>
   </div>
 
   <video autoplay muted loop src="assets/videos/hero.mp4"
