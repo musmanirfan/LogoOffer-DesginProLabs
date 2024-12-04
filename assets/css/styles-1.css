@@ -24986,6 +24986,23 @@ footer .logo-div{
     margin: 0;
 }
 
+.heading-banner {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    height: fit-content;
+    width: fit-content;
+    min-width: 600px;
+}
+
+
+.logo-fixed .desk-menu{
+    border: 1px solid black;
+    color: black;
+}
+
 /* Corrected Overflow Property */
 .our-testimonial {
     position: relative;
@@ -25024,26 +25041,13 @@ footer .logo-div{
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .arr-gap {
-        bottom: 10px;
-        gap: 6px;
+        display: none !important;
     }
-}
-
-.heading-banner {
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
-    height: fit-content;
-    width: fit-content;
-    min-width: 600px;
 }
 
 .our-testimonial .container {
     max-width: 1348px;
 }
-
 
 .owl-item.active {
     width: 1300px;
@@ -25052,18 +25056,18 @@ footer .logo-div{
 .test-upp {
     background-image: url(assets/images/home/3.webp);
     background-position: cover !important;
-    /* background-position: fixed !important; */
-    overflow-x: hidden !important;
-
-}
-
-.logo-fixed .desk-menu{
-    border: 1px solid black;
-    color: black;
+    overflow-x: hidden !important;
 }
 
 @media only screen and (max-width: 850px) {
     .navbar-shrink .desk-menu {
         background: #fcce01;
+    }
+    .our-testimonial .container {
+        max-width: 400px !important;
+    }
+    
+    .owl-item.active {
+        width: 370px !important;
     }
 }

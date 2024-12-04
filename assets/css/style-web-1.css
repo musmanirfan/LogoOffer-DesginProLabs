@@ -1115,7 +1115,7 @@ section.our_industry .row {
 .pack-inn:hover {
     box-shadow: 0 0 20px rgba(215, 215, 216, 0.6);
 }
-section.our-testimonial {
+/* section.our-testimonial {
     clear: both;
     padding: 2.5em 0;
     width: 100%;
@@ -1171,7 +1171,7 @@ section.our-testimonial {
 .owl-dots button.owl-dot:focus,
 .owl-dots button.owl-dot:hover {
     border-color: #EA5B05;
-}
+} */
 .lat-item-inn {
     padding-top: 6em;
     position: relative;

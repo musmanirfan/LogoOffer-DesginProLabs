@@ -63,6 +63,7 @@ $(document).ready(function () {
     autoplay: true,
     autoplayTimeout: 5000,
     autoplayHoverPause: true,
+    touchDrag: true, // Enable touch drag for mobile devices
     responsive: {
       0: {
         items: 1,
@@ -76,6 +77,7 @@ $(document).ready(function () {
     },
   });
 });
+
 
 $(".chat").click(function () {
   Tawk_API.toggle();
