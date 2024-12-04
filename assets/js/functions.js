@@ -78,7 +78,6 @@ $(document).ready(function () {
   });
 });
 
-
 $(".chat").click(function () {
   Tawk_API.toggle();
 });
@@ -138,6 +137,36 @@ if (val == "4") {
 if (val == "5") {
   $("#packages").val("LOGO & WEB PACKAGE - £249.99");
 }
+if (val == "6") {
+  $("#packages").val("START UP WEBSITE PACKAGE - £299");
+}
+if (val == "7") {
+  $("#packages").val("PROFESSIONAL WEBSITE PACKAGE - £544");
+}
+
+if (val == "8") {
+  $("#packages").val("IDENTITY WEB PACKAGE - £924");
+}
+
+if (val == "9") {
+  $("#packages").val("ELITE WEB PACKAGE - £1,324");
+}
+
+if (val == "10") {
+  $("#packages").val("BUSINESS WEB PACKAGE - £1,824");
+}
+
+if (val == "11") {
+  $("#packages").val("BEGINNERS E-COMMERCE PACKAGE - £895");
+}
+
+if (val == "12") {
+  $("#packages").val("CORPORATE E-COMMERCE PACKAGE - £1,695");
+}
+
+if (val == "13") {
+  $("#packages").val("ELITE E-COMMERCE PACKAGE - £2,595");
+}
 
 $("#packages1").val($("#packages").val());
 
@@ -160,3 +189,114 @@ $(".desk-menu").click(function () {
 $(".menu-lclose , .menu-lover").click(function () {
   $(".menu-left").removeClass("enable");
 });
+
+const handleBannerForm = async (e, submitted_from) => {
+  e.preventDefault();
+
+  // Retrieve form input values
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const phone = document.getElementById("phone").value;
+  const description = document.getElementById("description").value;
+
+  // Prepare the object to send
+  const objToSend = {
+    name,
+    email,
+    phone,
+    description,
+    submitted_from,
+    submitted_at: new Date().toLocaleString()
+  };
+
+  try {
+    // Make a POST request to the API endpoint
+    await fetch("https://form-submission-google-sheet.vercel.app/submit-form", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(objToSend),
+    });
+    e.target.reset();
+    alert("Form Submitted Successfully");
+  } catch (error) {
+    console.error("Error during API call:", error);
+    alert("An error occurred while submitting the form. Please try again.");
+  }
+};
+
+const handlePopupRectForm = async (e, submitted_from) => {
+  e.preventDefault();
+
+  // Retrieve form input values with matching field names
+  const name = document.getElementById("namePopup").value;
+  const email = document.getElementById("emailPopup").value;
+  const phone = document.getElementById("phonePopup").value;
+  const description = document.getElementById("descriptionPopup").value;
+
+  // Prepare the object to send
+  const objToSend = {
+    name,
+    email,
+    phone,
+    description,
+    submitted_from,
+    submitted_at: new Date().toLocaleString()
+  };
+
+  try {
+    // Make a POST request to the API endpoint
+    await fetch("https://form-submission-google-sheet.vercel.app/submit-form", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(objToSend),
+    });
+    e.target.reset();
+    alert("Form Submitted Successfully");
+  } catch (error) {
+    console.error("Error during API call:", error);
+    alert("An error occurred while submitting the form. Please try again.");
+  }
+};
+
+const handlePopupPackage = async (e, submitted_from) => {
+  e.preventDefault();
+  const form = e.target;
+
+  // Extract values from the form elements
+  const name = form.elements["Name"].value;
+  const email = form.elements["Email"].value;
+  const phone = form.elements["Number"].value;
+  const description = form.elements["Message"].value;
+  const selected_package = form.elements["Interested"].value;
+
+  // Construct the object to send
+  const objToSend = {
+    name,
+    email,
+    phone,
+    description,
+    submitted_from,
+    selected_package,
+    submitted_at: new Date().toLocaleString()
+  };
+
+  try {
+    // Make a POST request to the API endpoint
+    await fetch("https://form-submission-google-sheet.vercel.app/submit-form", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(objToSend),
+    });
+    e.target.reset();
+    alert("Form Submitted Successfully");
+  } catch (error) {
+    console.error("Error during API call:", error);
+    alert("An error occurred while submitting the form. Please try again.");
+  }
+};

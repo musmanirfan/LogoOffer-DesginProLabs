@@ -24986,6 +24986,12 @@ footer .logo-div{
     margin: 0;
 }
 
+.logo-fixed .desk-menu{
+    border: 1px solid black;
+    color: black;
+}
+
+
 .heading-banner {
     position: absolute;
     top: 100px;
@@ -24997,11 +25003,6 @@ footer .logo-div{
     min-width: 600px;
 }
 
-
-.logo-fixed .desk-menu{
-    border: 1px solid black;
-    color: black;
-}
 
 /* Corrected Overflow Property */
 .our-testimonial {
@@ -25071,3 +25072,4 @@ footer .logo-div{
         width: 370px !important;
     }
 }
+

@@ -20,7 +20,7 @@ include 'include/header.php';?>
             <div class="h-4 w-4 rounded-full flex items-center justify-center bg-white whitespace-nowrap">
               <img src="assets/images/check.png" alt="tick" class="h-[11px] object-fit">
             </div>
-            <p class="text-white text-[15px] font-light	">4 Unique Logo Design Concepts</p>
+            <p class="text-white text-[15px] font-light	">3 Unique Logo Design Concepts</p>
           </div>
         </li>
         <li>
@@ -72,7 +72,7 @@ include 'include/header.php';?>
             class="hover:text-black transition-all hover:!text-white hover:!opacity-90">Claim Your Logo Now</button></a>
       </div>
     </div>
-    <form onSubmit="handleBannerForm(event)"
+    <form onSubmit="handleBannerForm(event, 'BannerFormLogo')"
       class="bg-white shadow-2xl !border-2 !border-[#E4FF3E] !outline-[#E4FF3E] py-4 px-8 md:w-[93%] col-span-2 w-full h-fit mx-auto rounded-xl relative">
       <h1 class="text-center text-[#FE5F00] text-2xl font-bold mb-3">Limited Time Offer</h1>
       <div class="space-y-4">
@@ -794,7 +794,6 @@ include 'include/header.php';?>
   </div>
 </section>
 
-
 <section class="our-testimonial">
   <div class="container test-upp !w-[1350px] !sm:w-[1350px]">
     <div class="row sm:mx-12">
@@ -872,6 +871,5 @@ include 'include/header.php';?>
   <!-- Custom Dots Container -->
   <div class="d-flex arr-gap"></div>
 </section>
-
 
 <?php include 'include/footer.php';?>
