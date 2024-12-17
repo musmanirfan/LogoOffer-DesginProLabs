@@ -91,12 +91,10 @@
                         <i class="fa fa-phone" aria-hidden="true"></i>
                         <select name="Interested" id="packages3">
                             <option>Select Package</option>
-                            <option value="BASIC LOGO Package - $39.00">Basic Logo Package - $39.00</option>
-                            <option value="STARTUP LOGO Package - $65.00">Startup Logo Package - $65.00</option>
-                            <option value="PROFESSIONAL LOGO Package - $99.99">Professional Logo Package - $99.99
-                            </option>
-                            <option value="BUSINESS LOGO Package - $149.99">Business Logo Package - $149.99</option>
-                            <option value="LOGO & WEB Package Only $249.99">Logo & Web Package Only $249.99</option>
+                            <option value="Basic Plan">Basic Plan</option>
+                            <option value="Pro Plan">Pro Plan</option>
+                            <option value="Corporate Plan">Corporate Plan</option>
+                            <option value="Deluxe Plan">Deluxe Plan</option>
                         </select>
 
                         <input type="hidden" id="packages-val2" class="placeholder1" name="Interest" value="">

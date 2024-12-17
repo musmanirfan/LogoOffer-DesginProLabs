@@ -21,8 +21,8 @@
                     <div class="pack-btn">
 
                         <ul>
-                            <li><a href="javascript:;" onclick="get_packagess(this.name)" name="HTML" data-fancybox=""
-                                    title="HTML Webiste" data-src="#popupform"
+                            <li><a href="javascript:;" onclick="get_packagess(this.name)" name="Basic Plan" data-fancybox=""
+                                    title="Basic Plan" data-src="#popupform"
                                     class="order_now various fas fa-hand-pointer flex items-center gap-2"><img
                                         class="w-5 " src="assets/images/pointer.png"
                                         style="filter: invert(1) !important;" />Buy Now - Click</a></li>
@@ -54,8 +54,8 @@
                     <div class="pack-btn">
 
                         <ul>
-                            <li><a href="javascript:;" onclick="get_packagess(this.name)" name="CMS Website"
-                                    data-fancybox="" title="CMS Website" data-src="#popupform"
+                            <li><a href="javascript:;" onclick="get_packagess(this.name)" name="Pro Plan"
+                                    data-fancybox="" title="Pro Plan" data-src="#popupform"
                                     class="order_now various fas fa-hand-pointer flex items-center gap-2"><img
                                         class="w-5 " src="assets/images/pointer.png"
                                         style="filter: invert(1) !important;" />Buy Now - Click</a></li>
@@ -87,8 +87,8 @@
                     <div class="pack-btn">
 
                         <ul>
-                            <li><a href="javascript:;" onclick="get_packagess(this.name)" name="E-Commerce Website"
-                                    data-fancybox="" title="E-Commerce Website" data-src="#popupform"
+                            <li><a href="javascript:;" onclick="get_packagess(this.name)" name="Corporate Plan"
+                                    data-fancybox="" title="Corporate Plan" data-src="#popupform"
                                     class="order_now various fas fa-hand-pointer flex items-center gap-2"><img
                                         class="w-5 " src="assets/images/pointer.png"
                                         style="filter: invert(1) !important;" />Buy Now - Click</a></li>
@@ -123,8 +123,8 @@
                     <div class="pack-btn">
 
                         <ul>
-                            <li><a href="javascript:;" onclick="get_packagess(this.name)" name="Portal Website"
-                                    data-fancybox="" title="Portal Website" data-src="#popupform"
+                            <li><a href="javascript:;" onclick="get_packagess(this.name)" name="Deluxe Plan"
+                                    data-fancybox="" title="Deluxe Plan" data-src="#popupform"
                                     class="order_now various fas fa-hand-pointer flex items-center gap-2"><img
                                         class="w-5 " src="assets/images/pointer.png"
                                         style="filter: invert(1) !important;" />Buy Now - Click</a></li>
