@@ -256,6 +256,9 @@ const handlePopupRectForm = async (e, submitted_from) => {
     });
     e.target.reset();
     alert("Form Submitted Successfully");
+    // Hide the popup
+    $.fancybox.close();
+    
   } catch (error) {
     console.error("Error during API call:", error);
     alert("An error occurred while submitting the form. Please try again.");
@@ -295,6 +298,8 @@ const handlePopupPackage = async (e, submitted_from) => {
     });
     e.target.reset();
     alert("Form Submitted Successfully");
+    // Hide the popup
+    $.fancybox.close();
   } catch (error) {
     console.error("Error during API call:", error);
     alert("An error occurred while submitting the form. Please try again.");
